@@ -1,0 +1,61 @@
+﻿Analizando archivo: ejemplo.txt
+
+=== AN┴LISIS L╔XICO ===
+TIPO                 LEXEMA                         L═NEA      COLUMNA   
+-------------------------------------------------------------------
+INT                  int                            3          0         
+ID                   numero                         3          4         
+IGUAL                =                              3          11        
+INTEGER              42                             3          13        
+PYC                  ;                              3          15        
+DOUBLE               double                         4          0         
+ID                   pi                             4          7         
+IGUAL                =                              4          10        
+DECIMAL              3.14159                        4          12        
+PYC                  ;                              4          19        
+STRING_TYPE          String                         5          0         
+ID                   mensaje                        5          7         
+IGUAL                =                              5          15        
+STRING               "Hola, mundo!"                 5          17        
+PYC                  ;                              5          31        
+CHAR                 char                           6          0         
+ID                   letra                          6          5         
+IGUAL                =                              6          11        
+CHARACTER            'A'                            6          13        
+PYC                  ;                              6          16        
+BOOLEAN_TYPE         boolean                        7          0         
+ID                   condicion                      7          8         
+IGUAL                =                              7          18        
+TRUE                 true                           7          20        
+PYC                  ;                              7          24        
+IF                   if                             10         0         
+PA                   (                              10         3         
+ID                   numero                         10         4         
+MAYOR                >                              10         11        
+INTEGER              10                             10         13        
+PC                   )                              10         15        
+LA                   {                              10         17        
+ID                   System                         11         4         
+PUNTO                .                              11         10        
+ID                   out                            11         11        
+PUNTO                .                              11         14        
+ID                   println                        11         15        
+PA                   (                              11         22        
+ID                   mensaje                        11         23        
+PC                   )                              11         30        
+PYC                  ;                              11         31        
+LC                   }                              12         0         
+ELSE                 else                           12         2         
+LA                   {                              12         7         
+ID                   System                         13         4         
+PUNTO                .                              13         10        
+ID                   out                            13         11        
+PUNTO                .                              13         14        
+ID                   println                        13         15        
+PA                   (                              13         22        
+STRING               "N·mero pequeo"                13         23        
+PC                   )                              13         38        
+PYC                  ;                              13         39        
+LC                   }                              14         0         
+
+? Anßlisis lÚxico completado sin errores.

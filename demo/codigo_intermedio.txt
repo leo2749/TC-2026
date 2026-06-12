@@ -1,0 +1,16 @@
+// Código de tres direcciones generado automáticamente
+// Archivo: codigo_intermedio.txt
+// Total de instrucciones: 12
+
+  0: numero = 42
+  1: pi = 3.14159
+  2: mensaje = "Hola, mundo!"
+  3: letra = 'A'
+  4: condicion = true
+  5: t0 = numero > 10
+  6: if !t0 goto L0
+  7: print mensaje
+  8: goto L1
+  9: L0:
+ 10: print "Número pequeo"
+ 11: L1:

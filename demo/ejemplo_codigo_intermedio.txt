@@ -1,0 +1,36 @@
+// Código de tres direcciones generado automáticamente
+// Archivo: ejemplo_codigo_intermedio.txt
+// Total de instrucciones: 32
+
+  0: func_sumar:
+  1: t0 = a + b
+  2: resultado = t0
+  3: t1 = contadorGlobal + 1
+  4: contadorGlobal = t1
+  5: return resultado
+  6: func_main:
+  7: contadorGlobal = 0
+  8: valorPi = null
+  9: inicial = null
+ 10: numeros = 0
+ 11: numeros = 1
+ 12: numeros = 2
+ 13: t2 = null + null
+ 14: temp = t2
+ 15: t3 = temp * 2
+ 16: temp = t3
+ 17: t4 = temp / 3
+ 18: temp = t4
+ 19: t5 = temp % 5
+ 20: temp = t5
+ 21: estado = null
+ 22: contadorGlobal = estado
+ 23: valorPi = temp
+ 24: inicial = null
+ 25: t6 = estado > 0
+ 26: if !t6 goto L0
+ 27: t7 = estado + 10
+ 28: auxiliar = t7
+ 29: estado = auxiliar
+ 30: L0:
+ 31: return estado

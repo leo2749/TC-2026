@@ -33,6 +33,7 @@ public class SemanticAnalyzer extends MiLenguajeBaseVisitor<String> {
         this.tabla        = new SymbolTable();
         this.errores      = new ArrayList<>();
         this.advertencias = new ArrayList<>();
+        tabla.definir(Symbol.variable("System", "object", true, 0, 0));
     }
 
     // ── Diagnósticos ─────────────────────────────────────────────────────────
@@ -123,7 +124,7 @@ public class SemanticAnalyzer extends MiLenguajeBaseVisitor<String> {
 
     @Override
     public String visitDeclaracion(MiLenguajeParser.DeclaracionContext ctx) {
-        String tipo   = ctx.tipo().getText();
+        String tipo   = normalizarTipo(ctx.tipo().getText());
         String nombre = ctx.ID().getText();
         Token  token  = ctx.ID().getSymbol();
 
@@ -287,7 +288,7 @@ public class SemanticAnalyzer extends MiLenguajeBaseVisitor<String> {
 
     @Override
     public String visitDeclaracionFuncion(MiLenguajeParser.DeclaracionFuncionContext ctx) {
-        String tipoRetorno = ctx.tipo().getText();
+        String tipoRetorno = normalizarTipo(ctx.tipo().getText());
         String nombre      = ctx.ID().getText();
         Token  token       = ctx.ID().getSymbol();
 
@@ -301,7 +302,7 @@ public class SemanticAnalyzer extends MiLenguajeBaseVisitor<String> {
 
         if (ctx.listaParametros() != null) {
             for (MiLenguajeParser.ParametroContext param : ctx.listaParametros().parametro()) {
-                String tipoParam   = param.tipo().getText();
+                String tipoParam   = normalizarTipo(ctx.tipo().getText()); 
                 String nombreParam = param.ID().getText();
                 Token  tokenParam  = param.ID().getSymbol();
                 tabla.definir(Symbol.parametro(nombreParam, tipoParam,
@@ -521,4 +522,13 @@ public class SemanticAnalyzer extends MiLenguajeBaseVisitor<String> {
 
         return simbolo.getTipo();
     }
+    private String normalizarTipo(String tipoTexto) {
+        switch (tipoTexto) {
+            case "String":  return TypeSystem.STRING;  // "string"
+            case "boolean": return TypeSystem.BOOL;    // "bool"
+            default:        return tipoTexto;          // int, double, char, void
+        }
+    }
+
+    
 }

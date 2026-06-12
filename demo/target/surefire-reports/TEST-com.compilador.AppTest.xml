@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.compilador.AppTest" time="0.482" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.compilador.AppTest" time="0.1" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Pc\Desktop\TecnicasDeCompilacion-analisis_sintactico\demo\target\test-classes;C:\Users\Pc\Desktop\TecnicasDeCompilacion-analisis_sintactico\demo\target\classes;C:\Users\Pc\.m2\repository\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3.jar;C:\Users\Pc\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Pc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Pc\Desktop\TC-Compilador\TC-2026\demo\target\test-classes;C:\Users\Pc\Desktop\TC-Compilador\TC-2026\demo\target\classes;C:\Users\Pc\.m2\repository\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3.jar;C:\Users\Pc\.m2\repository\org\antlr\antlr4\4.9.3\antlr4-4.9.3.jar;C:\Users\Pc\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar;C:\Users\Pc\.m2\repository\org\antlr\ST4\4.3.1\ST4-4.3.1.jar;C:\Users\Pc\.m2\repository\org\abego\treelayout\org.abego.treelayout.core\1.0.3\org.abego.treelayout.core-1.0.3.jar;C:\Users\Pc\.m2\repository\org\glassfish\javax.json\1.0.4\javax.json-1.0.4.jar;C:\Users\Pc\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\Pc\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Pc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\Pc\AppData\Local\Temp\surefire2454264565564863173\surefirebooter-20260612174649617_3.jar C:\Users\Pc\AppData\Local\Temp\surefire2454264565564863173 2026-06-12T17-46-49_206-jvmRun1 surefire-20260612174649617_1tmp surefire_0-20260612174649617_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Pc\AppData\Local\Temp\surefire11321116165082423708\surefirebooter-20260612192546843_3.jar C:\Users\Pc\AppData\Local\Temp\surefire11321116165082423708 2026-06-12T19-25-46_485-jvmRun1 surefire-20260612192546843_1tmp surefire_0-20260612192546843_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Pc\Desktop\TecnicasDeCompilacion-analisis_sintactico\demo\target\test-classes;C:\Users\Pc\Desktop\TecnicasDeCompilacion-analisis_sintactico\demo\target\classes;C:\Users\Pc\.m2\repository\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3.jar;C:\Users\Pc\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Pc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Pc\Desktop\TC-Compilador\TC-2026\demo\target\test-classes;C:\Users\Pc\Desktop\TC-Compilador\TC-2026\demo\target\classes;C:\Users\Pc\.m2\repository\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3.jar;C:\Users\Pc\.m2\repository\org\antlr\antlr4\4.9.3\antlr4-4.9.3.jar;C:\Users\Pc\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar;C:\Users\Pc\.m2\repository\org\antlr\ST4\4.3.1\ST4-4.3.1.jar;C:\Users\Pc\.m2\repository\org\abego\treelayout\org.abego.treelayout.core\1.0.3\org.abego.treelayout.core-1.0.3.jar;C:\Users\Pc\.m2\repository\org\glassfish\javax.json\1.0.4\javax.json-1.0.4.jar;C:\Users\Pc\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\Pc\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Pc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Pc"/>
     <property name="user.language" value="es"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2025-01-21"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Pc\Desktop\TecnicasDeCompilacion-analisis_sintactico\demo"/>
+    <property name="basedir" value="C:\Users\Pc\Desktop\TC-Compilador\TC-2026\demo"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Pc\AppData\Local\Temp\surefire2454264565564863173\surefirebooter-20260612174649617_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Pc\AppData\Local\Temp\surefire11321116165082423708\surefirebooter-20260612192546843_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Pc\AppData\Local\Temp\"/>
     <property name="java.version" value="23.0.2"/>
-    <property name="user.dir" value="C:\Users\Pc\Desktop\TecnicasDeCompilacion-analisis_sintactico\demo"/>
+    <property name="user.dir" value="C:\Users\Pc\Desktop\TC-Compilador\TC-2026\demo"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.compilador.AppTest" time="0.011"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.compilador.AppTest" time="0.005"/>
 </testsuite>
